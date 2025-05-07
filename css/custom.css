@@ -44,7 +44,7 @@
 	--secondary-color			: #202737;
 	--text-color				: #F2F2F2;
 	--accent-color				: #40F843;
-	--accent-secondary-color	: #171E2E;
+	--accent-secondary-color	: #111111;
 	--divider-color				: #FFFFFF24;
 	--error-color				: rgb(230, 87, 87);
 	--default-font				: "Rubik", sans-serif;
@@ -1014,6 +1014,7 @@ header.main-header .header-sticky.active{
 
 .about-us{
 	background-image: url('../images/section-bg-circle-shape.png');
+	background-color: var(--accent-secondary-color);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
@@ -1148,6 +1149,7 @@ header.main-header .header-sticky.active{
 
 .our-services{
 	background-image: url('../images/section-bg-circle-shape.png');
+	background-color: var(--accent-secondary-color);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: 100% auto;
