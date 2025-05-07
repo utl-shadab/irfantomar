@@ -226,6 +226,26 @@ body{
 
 
 
+.btn-default::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+  	left: 50%;
+  	right: 50%;
+  	opacity: 0;
+	background: var(--primary-color);
+	border-radius: 100px;
+	transition: all 0.4s ease-in-out;
+	z-index: -1;
+}
+  
+.btn-default:hover::after{
+	left: 0;
+  	right: 0;
+	opacity: 1;
+}
+
 .btn-default.btn-highlighted{
 	border: 1px solid var(--accent-color);
 	background: transparent;
