@@ -5,11 +5,20 @@
 	var $body = $('body'); 
 
 	/* Preloader Effect */
-	$window.on('load', function() {
-		setTimeout(function() {
-			$(".preloader").fadeOut(600);
-		}, 3000); // Wait 3 seconds (3000ms) before fading out
-	});
+	$(window).on('load', function () {
+		setTimeout(function () {
+		  // Fade out preloader
+		  $(".preloader").fadeOut(600, function () {
+			// After fadeOut completes, run GSAP animation
+			gsap.from(".main-content", {
+			  y: 100,
+			  opacity: 0,
+			  duration: 1.5,
+			  ease: "power4.out"
+			});
+		  });
+		}, 3000); // Wait 3 seconds before fading out
+	  });
 
 	/* Sticky Header */	
 	if($('.active-sticky-header').length){
