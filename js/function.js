@@ -5,8 +5,10 @@
 	var $body = $('body'); 
 
 	/* Preloader Effect */
-	$window.on('load', function(){
-		$(".preloader").fadeOut(600);
+	$window.on('load', function() {
+		setTimeout(function() {
+			$(".preloader").fadeOut(600);
+		}, 3000); // Wait 3 seconds (3000ms) before fading out
 	});
 
 	/* Sticky Header */	

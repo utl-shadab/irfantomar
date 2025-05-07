@@ -1,9 +1,4 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Fitwell - Fitness and Gym HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
+
 /* INDEX
 ----------------------------------------------------------------------------------------
 01. Global Variables
@@ -48,7 +43,7 @@
 	--primary-color				: #FFFFFF;
 	--secondary-color			: #202737;
 	--text-color				: #F2F2F2;
-	--accent-color				: #D7FB00;
+	--accent-color				: #40F843;
 	--accent-secondary-color	: #171E2E;
 	--divider-color				: #FFFFFF24;
 	--error-color				: rgb(230, 87, 87);
@@ -307,7 +302,7 @@ body{
 	color: var(--primary-color);
 }
 .nav-link.active {
-	color: #D7FB00 !important; 
+	color: #40F843 !important; 
 	font-weight: bold;
   }
   @media screen and (max-width: 991px) {
@@ -341,61 +336,30 @@ body{
 	background: var(--accent-color);
 }
 
-.preloader{
+.preloader {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	z-index: 1000;
-	background: var(--accent-color);
+	background: var(--accent-color); 
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
-
-.loading-container,
-.loading{
-	height: 100px;
-	position: relative;
-	width: 100px;
-	border-radius: 100%;
-}
-
-.loading-container{
-	margin: 40px auto;
-}
-
-.loading{
-	border: 1px solid transparent;
-	border-color: transparent var(--accent-secondary-color) transparent var(--accent-secondary-color);
-	animation: rotate-loading 1.5s linear 0s infinite normal;
-	transform-origin: 50% 50%;
-}
-
-.loading-container:hover .loading,
-.loading-container .loading{
-	transition: all 0.5s ease-in-out;
-}
-
-#loading-icon{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	max-width: 66px;
-	transform: translate(-50%, -50%);
-}
-
-@keyframes rotate-loading{
-	0%{
-		transform: rotate(0deg);
-	}
-
-	100%{
-		transform: rotate(360deg);
-	}
-}
-
+  }
+  
+  .loading-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  #loading-icon {
+	max-width: 500px;
+	width: 100%;
+	height: auto;
+  }
 .light-section{
 	background-color: var(--secondary-color);
 }
@@ -792,6 +756,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
+	background-color: #111;
 	/* background: url('../images/hero-bg-shape.png'); */
 	background-repeat: no-repeat;
 	background-position: center center;
