@@ -300,11 +300,23 @@ body{
 	padding-right: 32px;
 	transition: all 0.3s ease-in-out;
 }
-
+.navbar-toggle .slicknav_btn:first-child{
+	display: none;
+}
 .readmore-btn:hover{
 	color: var(--primary-color);
 }
-
+.nav-link.active {
+	color: #D7FB00 !important; 
+	font-weight: bold;
+  }
+  @media screen and (max-width: 991px) {
+	  .nav-link.active {
+		  color: #000000 !important; 
+		  font-weight: bold;
+		}
+	
+  }
 .readmore-btn:after{
 	content: '';
     position: absolute;
@@ -551,6 +563,9 @@ header.main-header .header-sticky.active{
 	padding: 0;
 	margin: 0;
 }
+.navbar-brand img{
+	height: 50px;
+}
 
 .main-menu .nav-menu-wrapper{
 	flex: 1;
@@ -777,7 +792,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url('../images/hero-bg-shape.png');
+	/* background: url('../images/hero-bg-shape.png'); */
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
