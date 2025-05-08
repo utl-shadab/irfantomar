@@ -362,9 +362,9 @@ body{
 	width: 100%;
 }
 
-.light-section .section-title .section-bg-title span{
+/* .light-section .section-title .section-bg-title span{
 	color: var(--secondary-color);
-}
+} */
 
 .section-title{
 	position: relative;
@@ -1287,6 +1287,7 @@ header.main-header .header-sticky.active{
 .why-choose-us{
 	background-image: url('../images/section-bg-circle-shape.png');
 	background-repeat: no-repeat;
+	background-color: var(--accent-secondary-color);
 	background-position: center center;
 	background-size: 100% auto;
 	padding: 100px 0;
@@ -1471,6 +1472,7 @@ header.main-header .header-sticky.active{
 	background-image: url('../images/section-bg-circle-shape.png');
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-color: var(--accent-secondary-color);
 	background-size: 100% auto;
 	padding: 100px 0;
 }
@@ -1730,6 +1732,7 @@ header.main-header .header-sticky.active{
 	background-image: url('../images/section-bg-circle-shape.png');
 	background-repeat: no-repeat;
 	background-position: center center;
+	background-color: var(--accent-secondary-color);
 	background-size: 100% auto;
 	padding: 100px 0;
 }
@@ -1852,6 +1855,7 @@ header.main-header .header-sticky.active{
 .our-testimonials{
 	background-image: url('../images/testimonials-bg.png');
 	background-repeat: no-repeat;
+	background-color: var(--accent-secondary-color);
 	background-position: center center;
 	background-size: auto;
     padding: 100px 0;
@@ -1960,6 +1964,7 @@ header.main-header .header-sticky.active{
 .our-blog{
 	background-image: url('../images/section-bg-circle-shape.png');
 	background-repeat: no-repeat;
+	background-color: var(--accent-secondary-color);
 	background-position: center center;
 	background-size: 100% auto;
 	padding: 100px 0;
@@ -2109,6 +2114,7 @@ header.main-header .header-sticky.active{
 .footer-main{
 	background-image: url('../images/section-bg-circle-shape.png');
 	background-repeat: no-repeat;
+	background-color: var(--accent-secondary-color)	;
 	background-position: center center;
 	background-size: 100% auto;
 	padding: 100px 0 0;
@@ -2290,7 +2296,8 @@ header.main-header .header-sticky.active{
 
 .page-header{
 	position: relative;
-    background: url(../images/hero-bg-shape.png);
+    /* background: url(../images/hero-bg-shape.png); */
+	background-color: var(--accent-secondary-color);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -3295,14 +3302,16 @@ header.main-header .header-sticky.active{
 
 .post-image img{
 	width: 100%;
+	max-width: 900px;
 	aspect-ratio: 1 / 0.50;
 	object-fit: cover;
 	border-radius: 18px;
+	margin: 0 auto;
 }
 
 .post-content{
 	width: 100%;
-	max-width: 1100px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 

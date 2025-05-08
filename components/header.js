@@ -22,7 +22,7 @@
 //                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
 //                                 <!-- <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
 //                                     <ul>                                        
-//                                         <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
+//                                         <li class="nav-item"><a class="nav-link" href="#">Service Details</a></li>
 //                                         <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
 //                                         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
 //                                         <li class="nav-item"><a class="nav-link" href="project-single.html">Project details</a></li>
@@ -84,7 +84,7 @@ class MyHeader extends HTMLElement {
                                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
                              <!--   <li class="nav-item submenu"><a class="nav-link" href="#">Pages</a>
                                     <ul>                                        
-                                        <li class="nav-item"><a class="nav-link" href="service-single.html">Service Details</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="#">Service Details</a></li>
                                         <li class="nav-item"><a class="nav-link" href="blog-single.html">Blog Details</a></li>
                                         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
                                         <li class="nav-item"><a class="nav-link" href="project-single.html">Project details</a></li>
@@ -128,7 +128,7 @@ class MyHeader extends HTMLElement {
                                 <li class="nav-item"><a class="nav-link" href="blog.html" role="menuitem" tabindex="-1">Blog</a></li>
                                 <!-- <li class="nav-item submenu slicknav_collapsed slicknav_parent"><a href="#" role="menuitem" aria-haspopup="true" tabindex="-1" class="slicknav_item slicknav_row" style="outline: none;"><a class="nav-link" href="#" tabindex="-1">Pages</a>
         <span class="slicknav_arrow">►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">                                        
-            <li class="nav-item"><a class="nav-link" href="service-single.html" role="menuitem" tabindex="-1">Service Details</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" role="menuitem" tabindex="-1">Service Details</a></li>
             <li class="nav-item"><a class="nav-link" href="blog-single.html" role="menuitem" tabindex="-1">Blog Details</a></li>
             <li class="nav-item"><a class="nav-link" href="projects.html" role="menuitem" tabindex="-1">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="project-single.html" role="menuitem" tabindex="-1">Project details</a></li>

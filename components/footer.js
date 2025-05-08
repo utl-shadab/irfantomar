@@ -15,7 +15,7 @@ class MyFooter extends HTMLElement {
 
                         <!-- Footer Contact Box Start -->
                         <div class="about-footer-content">
-                            <p>Push harder, go further. Your fitness journey starts today!</p>
+                            <p> Whether you’re ready to start or just have a few questions, I’m here to help.</p>
                         </div>
                         <!-- Footer Contact Box End -->
 
@@ -44,7 +44,7 @@ class MyFooter extends HTMLElement {
                                 <img src="images/icon-phone.svg" alt="">
                             </div>
                             <div class="footer-contact-content">
-                                <p><a href="tel:+91123456789">+91 123 456 789</a></p>
+                                <p><a href="tel:+919540236983 ">+91 954 023 6983 </a></p>
                             </div>
                         </div>
                         <!-- Footer Contact Item End -->
@@ -55,7 +55,7 @@ class MyFooter extends HTMLElement {
                                 <img src="images/icon-mail.svg" alt="">
                             </div>
                             <div class="footer-contact-content">
-                                <p><a href="mailto:info@domainname.com">info@domainname.com</a></p>
+                                <p><a href="mailto:irfantomar@gmail.com ">irfantomar@gmail.com </a></p>
                             </div>
                         </div>
                         <!-- Footer Contact Item End -->
@@ -80,7 +80,7 @@ class MyFooter extends HTMLElement {
                     <div class="footer-links">
                         <h3>our location</h3>
                         <ul>
-                            <li>2715 Ash Dr. San Jose, South Dakota 83475</li>
+                            <li>Based in Delhi, Available Worldwide Online</li>
                         </ul>
                     </div>
                     <!-- Footer Links end -->
